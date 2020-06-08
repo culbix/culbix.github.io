@@ -19,6 +19,13 @@ progress, sub, sup {
   padding: 0
 }
 
+html, body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -4644,6 +4651,10 @@ sub, sup {
   }
 }
 
+.about-us {
+  margin: 25%;
+}
+
 .user-details {
   text-align: center;
   margin: 5px auto
@@ -4668,7 +4679,32 @@ sub, sup {
 }
 
 
+
+
 .swiper-container {
-  width: 600px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #1A222C;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #ffffff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
