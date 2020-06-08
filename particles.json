@@ -8,13 +8,13 @@
       }
     },
     "color": {
-      "value": "#3563ee"
+      "value": "#ffffff"
     },
     "shape": {
-      "type": "square",
+      "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#3563ee"
+        "color": "#000000"
       },
       "polygon": {
         "nb_sides": 5
@@ -107,7 +107,7 @@
   "retina_detect": true,
   "config_demo": {
     "hide_card": false,
-    "background_color": "#b60000",
+    "background_color": "#b61924",
     "background_image": "",
     "background_position": "50% 50%",
     "background_repeat": "no-repeat",
