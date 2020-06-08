@@ -90,5 +90,6 @@
     <orderEntry type="library" scope="PROVIDED" name="zeitwerk (v2.3.0, ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" name="particles" level="application" />
     <orderEntry type="library" name="devicon" level="application" />
+    <orderEntry type="library" name="swiper" level="application" />
   </component>
 </module>

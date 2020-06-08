@@ -4471,7 +4471,9 @@ sub, sup {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%)
 }
@@ -4663,4 +4665,10 @@ sub, sup {
   text-decoration: none;
   margin: 0;
   color: #fff
+}
+
+
+.swiper-container {
+  width: 600px;
+  height: 300px;
 }
