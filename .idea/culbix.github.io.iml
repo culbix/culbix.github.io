@@ -91,5 +91,6 @@
     <orderEntry type="library" name="particles" level="application" />
     <orderEntry type="library" name="devicon" level="application" />
     <orderEntry type="library" name="swiper" level="application" />
+    <orderEntry type="library" name="animejs" level="application" />
   </component>
 </module>

@@ -4657,7 +4657,20 @@ sub, sup {
 
 .user-details {
   text-align: center;
-  margin: 5px auto
+  margin: 5px auto;
+  /*padding: 50px;*/
+  border-radius: 80px;
+  /*background: #0E530E;*/
+
+  /*shape-outside: circle(50%);*/
+  /*width: 1000px;*/
+  /*height: 500px;*/
+
+
+  /*border-left: 5px solid black;*/
+  /*border-right: 5px solid black;*/
+  /*border-bottom: 5px solid black;*/
+  /*border-top: 5px solid black;*/
 }
 
 .footer {
@@ -4708,3 +4721,30 @@ sub, sup {
   -webkit-align-items: center;
   align-items: center;
 }
+
+
+
+.site-title {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.site-title .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+.simple-text {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
