@@ -4631,7 +4631,7 @@ sub, sup {
     font-weight: 400
 }
 
-.user {
+.about-us {
     text-align: center;
     font-size: 60px;
     display: flex;
@@ -4640,14 +4640,14 @@ sub, sup {
     justify-content: space-between
 }
 
-.user p {
+.about-us p {
     font-size: 16px
 }
 
 @media only screen and (min-width: 768px) {
-    .user {
+    .about-us p {
         flex-wrap: nowrap;
-        font-size: 75px
+        font-size: 26px
     }
 }
 
