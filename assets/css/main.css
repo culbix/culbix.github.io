@@ -4632,6 +4632,8 @@ sub, sup {
 }
 
 .about-us {
+    align-items: center;
+    align-content: center;
     text-align: center;
     font-size: 60px;
     display: flex;
@@ -4656,10 +4658,10 @@ sub, sup {
 }
 
 .user-details {
-    text-align: center;
-    margin: 5px auto;
+    /*text-align: center;*/
+    /*margin: 5px auto;*/
     /*padding: 50px;*/
-    border-radius: 80px;
+    /*border-radius: 80px;*/
     /*background: #0E530E;*/
 
     /*shape-outside: circle(50%);*/
@@ -4738,16 +4740,18 @@ sub, sup {
 }
 
 
-.background {
-    position:  absolute;
-    display:  block;
-    top: 0;
-    left: 0;
-    z-index: 0;
+.box {
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
 }
 
-
-
-
-
-
+.box .text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 15%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+}
