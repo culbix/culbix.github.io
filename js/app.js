@@ -14,19 +14,20 @@ particlesJS.load('particles-js', 'particles.json', function() {
 /* sweetScroll load */
 document.addEventListener("DOMContentLoaded", function () {
   // const sweetScroll = new SweetScroll({/* some options */});
+  new SweetScroll({});
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 160,
+        "value": 100,
         "density": {
           "enable": true,
           "value_area": 500
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#000000"
       },
       "shape": {
         "type": "circle",
@@ -54,19 +55,19 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       },
       "size": {
-        "value": 3,
+        "value": 2,
         "random": true,
         "anim": {
-          "enable": false,
+          "enable": true,
           "speed": 4,
           "size_min": 0.3,
           "sync": false
         }
       },
       "line_linked": {
-        "enable": false,
+        "enable": true,
         "distance": 150,
-        "color": "#ffffff",
+        "color": "#6a6a6a",
         "opacity": 0.4,
         "width": 1
       },

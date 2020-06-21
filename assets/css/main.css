@@ -19,13 +19,6 @@ progress, sub, sup {
     padding: 0
 }
 
-html, body {
-    position: relative;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
@@ -190,6 +183,19 @@ summary {
     font-style: normal
 }
 
+
+/*/
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@font-face {
+    font-family: 'RoboticFont';
+    src: url(../fonts/maxellight-font/MaxellightLight-eZ9Wn.ttf);
+    font-weight: 400;
+    font-style: normal
+}
+
+
 .fa {
     display: inline-block;
     font: 14px/1 FontAwesome;
@@ -297,7 +303,6 @@ summary {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg)
     }
-
     to {
         -webkit-transform: rotate(359deg);
         transform: rotate(359deg)
@@ -309,7 +314,6 @@ summary {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg)
     }
-
     to {
         -webkit-transform: rotate(359deg);
         transform: rotate(359deg)
@@ -4429,7 +4433,6 @@ sub, sup {
         opacity: .4;
         top: 0
     }
-
     50% {
         -ms-filter: none;
         -webkit-filter: none;
@@ -4446,7 +4449,6 @@ sub, sup {
         opacity: .4;
         top: 0
     }
-
     50% {
         -ms-filter: none;
         -webkit-filter: none;
@@ -4457,7 +4459,8 @@ sub, sup {
 }
 
 #particles-js {
-    background: #1a222c;
+    /*background: #1a222c;*/
+    background: #ffffff;
     display: flex;
     vertical-align: bottom;
     min-height: 100vh;
@@ -4478,9 +4481,7 @@ sub, sup {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%)
 }
@@ -4489,13 +4490,13 @@ sub, sup {
     font-size: 50px;
     display: block;
     line-height: 1;
-    color: #fff
+    color: #212121
 }
 
 @media only screen and (min-width: 768px) {
     .header .site-title {
         margin: 0;
-        font-size: 36px
+        font-size: 76px
     }
 }
 
@@ -4503,13 +4504,13 @@ sub, sup {
     font-size: 20px;
     display: block;
     line-height: 1;
-    color: #fff;
+    color: #212121;
     margin-top: 10px
 }
 
 @media only screen and (min-width: 768px) {
     .header .site-description {
-        font-size: 26px
+        font-size: 34px
     }
 }
 
@@ -4631,9 +4632,7 @@ sub, sup {
     font-weight: 400
 }
 
-.about-us {
-    align-items: center;
-    align-content: center;
+.user {
     text-align: center;
     font-size: 60px;
     display: flex;
@@ -4642,37 +4641,20 @@ sub, sup {
     justify-content: space-between
 }
 
-.about-us p {
+.user p {
     font-size: 16px
 }
 
 @media only screen and (min-width: 768px) {
-    .about-us p {
+    .user {
         flex-wrap: nowrap;
-        font-size: 26px
+        font-size: 75px
     }
 }
 
-.about-us {
-    margin: 25%;
-}
-
 .user-details {
-    /*text-align: center;*/
-    /*margin: 5px auto;*/
-    /*padding: 50px;*/
-    /*border-radius: 80px;*/
-    /*background: #0E530E;*/
-
-    /*shape-outside: circle(50%);*/
-    /*width: 1000px;*/
-    /*height: 500px;*/
-
-
-    /*border-left: 5px solid black;*/
-    /*border-right: 5px solid black;*/
-    /*border-bottom: 5px solid black;*/
-    /*border-top: 5px solid black;*/
+    text-align: center;
+    margin: 5px auto
 }
 
 .footer {
@@ -4694,74 +4676,27 @@ sub, sup {
 }
 
 
-.swiper-container {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background: #1A222C;
+
+/*.title-img {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    display: flex;*/
+/*    alignment: center;*/
+/*    align-content: center;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    flex-direction: row;*/
+/*}*/
+
+
+.container {
+    display: flex;           /* establish flex container */
+    flex-direction: row;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
 }
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #ffffff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
-
-
-.site-title {
-    font-weight: 900;
-    font-size: 0.5em;
-}
-
-.site-title .letter {
-    display: inline-block;
-    line-height: 3.5em;
-}
-
-
-.simple-text {
-    font-size: 1.8rem;
-    color: #333;
-}
-
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+.box {
+    text-align: match-parent;     /* will center text in <p>, which is not a flex item */
+    align-self: center;
 }
